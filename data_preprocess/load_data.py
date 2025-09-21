@@ -10,7 +10,7 @@ import h5py
 
 # ================== 可配置 ==================
 ROOT_DIR = r"/home/lin/Bearing-Fault-Detection/data"           # 要遍历的 .mat 文件夹
-OUT_DIR  = r"/home/lin/Bearing-Fault-Detection/data/img"       # 导出图片的文件夹
+OUT_DIR  = r"/home/lin/Bearing-Fault-Detection/data_preprocess/img/raw_data"       # 导出图片的文件夹
 KEY_FILTER = None              # 例如 r"^(signal|data)$" 只画匹配的变量；None 为不过滤
 MAX_VARS_PER_FILE = 6          # 每个文件最多可视化的变量数
 MAX_2D_ROWS = 3                # 对 2D 数组，最多展示的行数
